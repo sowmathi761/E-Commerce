@@ -18,10 +18,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link "  href="#">Home</a>
+          <a class="nav-link "  href="#home">Home</a> <!--#Home makes if we click the #home it goes to home page -->
         </li>
         <li class="nav-item">
-          <a class="nav-link "  href="#">About</a>
+          <a class="nav-link "  href="#about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link "  href="#">Product</a>
@@ -35,7 +35,35 @@
 </nav>
     <!--Home-->
     <section id="home">
-      <h1>ORGANIC SPICES</h1>
+      <h1 class="text-center">ORGANIC SPICES</h1> <!--this class text-center makes the organic spices center-->
+      <p>Bringing the Taste of Tradition to Your Kitchen</p>
+       <div  class="input-group m-4"> <!--this bootstrap default class make the get started button to visible from the left margin(default size small)-->
+        <input type ="text" class ="form-control" placeholder="Email Address"><!--form control makes the get started button to display wider from left margin to right margin-->
+        <button class ="btn signin"> Get Started</button>
+       </div>
+       </section>
+
+    <!--About-->
+     
+    <section id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="logo.jpeg" class ="img-fluid"> <!--this img-fluid class makes responsive -->
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <h1>ABOUT US</h1>
+            <P>At MyMasalaBox, we bring you the true essence of Indian flavors  pure, fresh, and full of life. Our spices are handpicked from trusted farms and packed with care to preserve their natural aroma and taste. We believe that every dish deserves authentic, wholesome ingredients. With MyMasalaBox, experience the joy of cooking with love and tradition in every pinch.
+
+Every spice we offer carries a story of heritage, soil, and skilled farmers who pour their hearts into growing the finest produce. From the rich turmeric of Tamil Nadu to the aromatic cardamom of Kerala, we ensure that only the best reaches your kitchen. Our goal is to make every meal a flavorful journey through India’s diverse culinary culture.
+
+We take pride in blending traditional wisdom with modern packaging to deliver freshness that lasts. No artificial colors or preservatives  just nature’s pure goodness in every box. Whether you’re a home chef or a food lover, our spices promise to turn your everyday dishes into memorable experiences.
+
+At MyMasalaBox, flavor is not just our business  it’s our passion, our culture, and our promise to every customer.</P>
+
+          </div>
+        </div>
+      </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" ></script>
