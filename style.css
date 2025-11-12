@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:.5rem 5rem;
+    box-shadow:5px 5px 20px rgba(0,0,0,.5)
+}
+.navbar .navbar-brand{
+    font-size:25px;
+    font-weight:800;
+    color:palevioletred;
+}
+#navbarSupportedContent a{
+    color:black;
+    border-bottom:2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+        border-bottom:2px solid palevioletred;
+}
+#navbarSupportedContent button{
+    background: palevioletred;
+}
+section{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/****Home**/
+#home{
+    background:url(bg3.jpg);/* if we give image will be 2 */
+    background-size:cover;        /*it make the image to cover fully*/
+    background-position: center;    /*it make the image cover from center*/
+}
+#home h1{
+    font-size:100px;
+    color:white;
+}
+
