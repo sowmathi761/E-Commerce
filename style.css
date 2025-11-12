@@ -81,3 +81,13 @@ section{
 #about p{
     color:white;
 }
+/***Product*******/
+
+#product{
+    background:grey;
+}
+#product h1{
+    font-size:50px;
+    letter-spacing:2px;
+    font-weight:700;
+}
